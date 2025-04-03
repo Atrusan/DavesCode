@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    {
+      "type": "process",
+      "label": "build",
+      "command": "dotnet",
+      "args": [
+        "build"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
